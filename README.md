@@ -6,4 +6,4 @@ Axios was used in the project created with JavaScript.
 
 Below is an example visual of the project.
 
-![Animation] (https://github.com/oranmehmetsirin/GitHub-Profile-Cards/blob/main/gif.gif?raw=true)
+![](https://github.com/oranmehmetsirin/GitHub-Profile-Cards/blob/main/gif.gif?raw=true)
