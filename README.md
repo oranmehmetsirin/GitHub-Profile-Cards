@@ -5,3 +5,5 @@ You can search by entering the username or loginname of anyone you want and acce
 Axios was used in the project created with JavaScript.
 
 Below is an example visual of the project.
+
+![Animation] (https://github.com/oranmehmetsirin/GitHub-Profile-Cards/blob/main/gif.gif?raw=true)
