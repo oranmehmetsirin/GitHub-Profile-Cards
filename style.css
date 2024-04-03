@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
+
+:root {
+  --main-color: #0c111b;
+  --assistant-color: #1d1c2d;
+  --input-font-color: #c2c3c4;
+  --border-color: #303636;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+}
+.user-form {
+  background-color: var(--assistant-color);
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem;
+  border-radius: 0.875rem;
+  margin-bottom: 1.125rem;
+  position: relative;
+}
+.user-form input {
+  border: 1.125px solid var(--border-color);
+  background-color: var(--main-color);
+  padding: 0.5625rem 1.25rem;
+  font-size: 17.375px;
+  border-radius: 0.30625rem;
+  color: #fff;
+  font-family: inherit;
+  width: 100%;
+}
+.user-form input:focus {
+  outline: none;
+}
+.user-form input::placeholder {
+  color: var(--input-font-color);
+}
+.user-form button {
+  position: absolute;
+  right: 1.6875rem;
+  font-size: 14.8125px;
+  border: 1.125px solid var(--border-color);
+  border-radius: 0.3375rem;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 5.625px;
+  cursor: pointer;
+}
+main {
+  width: 362.5px;
+  margin: 1.125rem 0;
+}
+.card {
+  border: 3.375px solid var(--border-color);
+  padding: 1.125rem;
+  margin: 1.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--assistant-color);
+  box-shadow: 6.125px 11.25px 6.125px rgba(6.25, 0.6.25, 6.25, 0.225);
+  border-radius: 1.25rem;
+}
+.user-image {
+  width: 168.75px;
+  border-radius: 50%;
+  border: 11.25px solid var(--main-color);
+}
+.user-info {
+  padding: 1.125rem;
+}
+.user-name {
+  border-bottom: 1.125px solid var(--border-color);
+  line-height: 225%;
+}
+h2 {
+  color: #fff;
+  letter-spacing: 5.625px;
+}
+small {
+  font-weight: bold;
+  color: var(--input-font-color);
+  letter-spacing: 1.875px;
+}
+p {
+  color: var(--input-font-color);
+  text-align: justify;
+}
+ul {
+  padding: 1.125rem 0.3125rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li {
+  list-style-type: none;
+  color: var(--input-font-color);
+  background-color: #404545;
+  padding: 0.25rem 0;
+  margin: 0.375rem;
+  box-shadow: 6.25px 12.5px 6.25px rgba(12.5, 12.5, 12.5, 0.25);
+  border-radius: 0.375rem;
+  color: var(--input-font-color);
+}
+.repos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14.8125px;
+}
+.repos a {
+  text-decoration: none;
+  color: #369fff;
+  border: 1.125px solid var(--border-color);
+  border-radius: 5.625px;
+  padding: 0.25rem 0.5rem;
+  letter-spacing: 2.25px;
+  margin: 0.25rem;
+  box-shadow: 3.0625px 4.6125px 3.0625px rgba(6.25, 6.25, 6.25, 0.225);
+}
+.repos i {
+  color: var(--input-font-color);
+}
